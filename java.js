@@ -6,21 +6,6 @@ toggleButton.addEventListener('click', () => {
   navbarLinks.classList.toggle('active')
 })
 
-//navbar scroll up
-
-var lastScrollTop = 0;
-  navbar = document.getElementById("navbar");
-window.addEventListener("scroll", function(){
-  var scrollTop = window.pageXOffset
-  || document.documentElement.scrollTop;
-  if(scrollTop > lastScrollTop){
-    navbar.style.top="-80px";
-  } else {
-    navbar.style.top="0";
-  }
-  lastScrollTop = scrollTop;
-})
-
 //ler mais/ler menos btn
 function myFunction(){
     var dots = document.getElementById("dots");
@@ -38,7 +23,7 @@ function myFunction(){
     }
 }
 
-// buttons do slider 1 projetos 
+//// buttons do slider 1 projetos 
 const wrapper = document.querySelector(".slider-wrapper");
 const carousel = document.querySelector(".slider");
 const arrowsBtns = document.querySelectorAll(".slider-wrapper i"); //botoes
@@ -63,7 +48,7 @@ arrowsBtns.forEach(btn => {
     })
 });
 
-const dragStart = () => {
+const dragStart = (e) => {
     isDragging = true;
     carousel.classList.add("dragging");
     startX = e.pageX;
@@ -111,7 +96,48 @@ carousel.addEventListener("scroll", infiniteScroll);
 wrapper.addEventListener("mouseenter", () => clearTimeout(timeoutId));
 wrapper.addEventListener("mouseleave", autoPlay);
 
+//seg tentativa dots
 
+//var slideIndex = 1;
+//showSlides(slideIndex);
+//
+//function plusSlides(n) {
+//  showSlides(slideIndex += n);
+//}
+//
+//function currentSlide(n) {
+//  showSlides(slideIndex = n);
+//}
+//
+//function showSlides(n) {
+//  var i;
+//  var slides = document.getElementsByClassName("card");
+//  var dots = document.getElementsByClassName("dot2");
+//  if (n > slides.length) {slideIndex = 1}
+//    if (n < 1) {slideIndex = slides.length}
+//    for (i = 0; i < slides.length; i++) {
+//      slides[i].style.display = "none";
+//    }
+//    for (i = 0; i < dots.length; i++) {
+//      dots[i].className = dots[i].className.replace(" active", "");
+//    }
+//  slides[slideIndex-1].style.display = "block";
+//  dots[slideIndex-1].className += " active";
+//}
+
+//buttons slide home
+
+//function next(t){
+//  let elm = t.parentElement.parentElement.children[0];
+//  let item = elm.getElementsByClassName("card");
+//  elm.append(item[0]);
+//}
+//
+//function prev(t){
+//  let elm = t.parentElement.parentElement.children[0];
+//  let item = elm.getElementsByClassName("card");
+//  elm.prepend(item[item.length - 1]);
+//}
 //slide2 pag inicial depoimentos
 var slideIndex = 1;
 showSlides(slideIndex);
@@ -139,54 +165,3 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "block";
   dots[slideIndex-1].className += " active";
 }
-//var slider_img = document.querySelector('.slider-img');
-//var images = ['#slide1, #slide2, #slide3, #slide4, #slide5'];
-//var i = 0; // current img index
-
-//function prev(){
-//    if(i <= 0) i = images.length;
-//    i--;
-//    return setImg();
-//}
-
-//function next(){
-//    if( i >= images.length-1 ) i = -1;
-//    i++;
-//    return setImg();
-//}
-
-//function setImg(){
-//    return slider_img.setAttribute('src', '.assets/'+images[i]);
-//}
-
-
-//planA
-
-//let children = document.querySelector('.slider a').children;
-//let i = 0;
-
-//children[i].classList.add('selected');// Item default selection
-
-//function resetClass() {
-//    for (let j = 0; j < children.length; j++) {
-//        children[j].classList.remove('selected');
-//    }
-//}
-
-//function next() {
-//    if (i >= children.length - 1) {
-//        return false;
-//    }
-//    resetClass();
-//    i++;
-//    children[i].classList.add('selected')
-//}
-
-//function previous() {
-//    if (i <= 0) {
-//        return false;
-//    }
-//    resetClass();
-//    i--;
-//    children[i].classList.add('selected')
-//}

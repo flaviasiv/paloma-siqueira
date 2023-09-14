@@ -19,7 +19,6 @@ main{
     margin: auto;
 }
 header{
-    position: fixed;
     display: flex;
     width: 100%;
     max-width: 1900px;
@@ -73,7 +72,7 @@ header{
 .btn-toggle {
     position: absolute;
     right: 3rem;
-    top: 33%;
+    top: 3%;
     display: none;
     flex-direction: column;
     justify-content: space-between;
@@ -113,12 +112,20 @@ header{
     }
 }
 
+
+.slider-wrapper {
+    position: relative;
+    min-width: 200px;
+    max-width: 2520px;
+    margin: 0 auto;
+}
+
 .slider-wrapper i{
     position: absolute;
     height: 50px;
     width: 50px;
     text-align: center;
-    font-size: 24px;
+    font-size: 14px;
     font-style: normal;
     font-weight: 400;
     color: #FFF;
@@ -133,57 +140,15 @@ header{
     right: 2%;
 }
 
-
-
-
-.container{
-    display: flex;
-    width: 100%;
-    max-width: 2000px;
-    max-height: 800px;
-    margin: auto;
-    justify-content: center;
-    align-items: center;
-    /*position: static;
-    width: 100%;
-    margin: auto;
-    overflow: hidden;*/
-}
-.slider-wrapper{
-    position: relative;
-    display: inline;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    margin: auto;
-    overflow: hidden;
-}
 .slider{
-    margin-top: 80px;
     display: flex;
     width: auto;
-    scroll-snap-type: x mandatory;
-    transition: opacity 200ms;
-    scroll-behavior: smooth;
-    animation: scroll 40% linear infinite;
-}
-/*.slider-wrapper {
-    display: inline;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    max-width: 1990px;
-    margin: auto;
-    overflow: hidden;
-}
-.slider{
-    display: flex;
     overflow-x: auto;
     scroll-snap-type: x mandatory;
-    scrollbar-width: 0;
     scroll-behavior: smooth;
+    scrollbar-width: 0;
     box-shadow: 0 1.5rem 3 rem -0.75rem hsla(0, saturation, lightness, alpha);
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 23.96%, #000 100%);
+    /*background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 23.96%, #000 100%);*/
 
 }
 .slider::-webkit-scrollbar{
@@ -198,37 +163,27 @@ header{
 .slider.no-transition{
     scroll-behavior: auto;
 }
-.card a{
-    display: flex;
+
+.slider img{
     width: 100%;
-    max-width: 1990px;
-    margin: auto;
-    max-height: 900px;
-    align-items: center;
-}
-.card a img{
-    align-items: stretch;
+    max-width: 2900px;
     object-fit: cover;
+    /*height: 800px;*/
 }
-.slider h2, .slider h4, .slider h3, .slider h5{
-    position: absolute;
-    color: black;
-}
+
 .slider a {
     flex: 1 0 100%;
     scroll-snap-align: start;
     scroll-snap-type: none;
     object-fit: cover;
-}*/
+}
 
 .slider-nav{
-    position: absolute;
     display: flex;
     column-gap: 0.5rem;
-    position: relative;
-    align-items: center;
-    bottom: 15px;
-    left: 100%;
+    position: absolute;
+    bottom: 1rem;
+    left: 50%;
     transform: translateX(-50%);
     z-index: 1;
 }
@@ -237,7 +192,7 @@ header{
     width: 0.5rem;
     height: 0.5rem;
     border-radius: 50%;
-    background-color: gray;
+    background-color: #333;
     opacity: 0.75;
     transition: opacity ease 250ms;
 }
@@ -247,18 +202,15 @@ header{
     background-color: #FFF;
     cursor: pointer;
 }
-
-@media only screen and (max-width: 768px){
-    .sobre{
-        display: flex;
-        width: 100%;
-        max-width: 1980px;
+.img2{
+    display: none;
+}
+@media only screen and (max-width: 568px){
+    .img1{
+        display: none;
     }
-    .sobre p{
-        display: flex;
-        width: 100%;
-        max-width: 800px;
-
+    .img2{
+        display: block;
     }
 }
 
@@ -267,7 +219,7 @@ header{
     width: 100%;
     max-width:800px;
     margin: auto;
-    margin-top: 300px;
+    margin-top: 100px;
     margin-bottom: 120px;
     padding: 0 10.75vw;
 }

@@ -167,8 +167,6 @@ header{
     scroll-behavior: smooth;
     animation: scroll 40% linear infinite;
 }
-.card{
-}
 /*.slider-wrapper {
     display: inline;
     justify-content: center;

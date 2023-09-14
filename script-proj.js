@@ -121,36 +121,3 @@ document.addEventListener("mouseup", dragStop);
 carousel.addEventListener("scroll", infiniteScroll);
 wrapper.addEventListener("mouseenter", () => clearTimeout(timeoutId));
 wrapper.addEventListener("mouseleave", autoPlay);
-<<<<<<< HEAD
-
-// sliders simples pag projs
-function next(t){
-  let elm = t.parentElement.parentElement.children[0];
-  let item = elm.getElementsByClassName("item");
-  elm.append(item[0]);
-}
-
-function prev(t){
-  let elm = t.parentElement.parentElement.children[0];
-  let item = elm.getElementsByClassName("item");
-  elm.prepend(item[item.length - 1]);
-}
-
-// ler mais/menos 
-function myFunction(){
-  var dots = document.getElementById("dots");
-  var moreText = document.getElementById("more");
-  var btnText = document.getElementById("myBtn");
-
-  if (dots.style.display === "none") {
-    dots.style.display = "inline";
-    btnText.innerHTML = "Ler mais";
-    moreText.style.display = "none";
-  } else {
-    dots.style.display = "none";
-    btnText.innerHTML = "Ler menos";
-    moreText.style.display = "inline";
-  }
-}
-=======
->>>>>>> cd67c134a57e485a1cca7291ec83b430fa92465a

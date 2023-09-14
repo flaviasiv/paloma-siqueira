@@ -165,21 +165,6 @@ body{
     font-style: normal;
     line-height: 1.6;
 }
-<<<<<<< HEAD
-@media screen and (max-width: 830px) {
-    .sobre{
-        display: block;
-        margin-bottom: 100px;
-    }
-    .title{
-        margin-bottom: 40px;
-        font-size: 120px;
-    }
-}
-@media screen and (max-width: 520px) {
-    .title{
-        font-size: 90px;
-=======
 @media screen and (max-width: 720px) {
     .sobre{
         display: block;
@@ -202,7 +187,6 @@ body{
         font-style: normal;
         line-height: 0.8;
         margin-bottom: 20px;
->>>>>>> cd67c134a57e485a1cca7291ec83b430fa92465a
     }
 }
 .frame1 img{
@@ -223,8 +207,6 @@ body{
 .slider::-webkit-scrollbar{
     display: none;
 }
-<<<<<<< HEAD
-=======
 
 .slider.dragging .slider-img{
     cursor: grab;
@@ -340,7 +322,6 @@ body{
         margin: auto;
     }
 }
->>>>>>> cd67c134a57e485a1cca7291ec83b430fa92465a
 
 .slider.dragging .slider-img{
     cursor: grab;
@@ -489,10 +470,6 @@ body{
     width: 100%;
     max-width: 1200px;
     margin: auto;
-<<<<<<< HEAD
-    margin-bottom: 40px;
-=======
->>>>>>> cd67c134a57e485a1cca7291ec83b430fa92465a
 }
 .frame4 img{
     display: flex;
@@ -504,11 +481,7 @@ body{
     margin: auto;
     object-position: center;
 }
-<<<<<<< HEAD
-@media screen and (max-width: 820px) {
-=======
 @media screen and (max-width: 720px) {
->>>>>>> cd67c134a57e485a1cca7291ec83b430fa92465a
     .frame4 img{
         display: flex;
         max-width: 100%;
@@ -520,14 +493,6 @@ body{
         object-position: center;
     }    
 }
-<<<<<<< HEAD
-@media screen and (max-width: 720px) {
-    .frame3 img, .frame5 img{
-        padding-left: 10px;
-        padding-right: 10px;
-        margin-bottom: 40px;
-    }
-=======
 .frame5 img{
     display: flex;
     width: 100%;
@@ -537,35 +502,21 @@ body{
     padding-right: 100px;
     margin-bottom: 40px;
     margin-top: 40px;
->>>>>>> cd67c134a57e485a1cca7291ec83b430fa92465a
 }
 .frame6 img{
     display: flex;
     width: 100%;
     max-width: 1900px;
     margin: auto;
-<<<<<<< HEAD
-    padding-bottom: 40px;
-}
-.frame6 img:last-child{
-    padding-bottom: 0;
-=======
     margin-bottom: 40px;
->>>>>>> cd67c134a57e485a1cca7291ec83b430fa92465a
 }
 .outros{
     align-items: center;
     justify-content: center;
     padding-top: 50px;
     width: 100%;
-<<<<<<< HEAD
-    max-width: 1900px;
-    margin: auto;
-    background-color: #f0f0f0;
-=======
     max-width: 1200px;
     margin: auto;
->>>>>>> cd67c134a57e485a1cca7291ec83b430fa92465a
 }
 .outros p{
     display: flex;
@@ -577,14 +528,6 @@ body{
     padding: 3.75rem;
     font-size: 10vw;
     line-height: 0.8;
-<<<<<<< HEAD
-}
-@media screen and (max-width: 720px) {
-    .outros{
-        padding-top: 0px;        
-    }
-=======
->>>>>>> cd67c134a57e485a1cca7291ec83b430fa92465a
 }
 
 .slider2-wrapper{

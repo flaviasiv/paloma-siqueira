@@ -264,7 +264,6 @@ main{
         height: auto;
         padding: 0 2vw;
     }
-    
     .container2, .container4, .container6{
         display: flex;
         flex-direction: column;
@@ -277,6 +276,9 @@ main{
         justify-content: center;
         /*transform: translateX(50%);*/
         z-index: 1;
+    }
+    .card1, .card2, .card3, .card4, .card5, .card5, .card6, .card7, .card8, .card9, .card10, .card11, .card12, .card13{
+        margin-bottom: 40px;
     }
     .card1 img, .card2 img, .card3 img, .card4 img, .card5 img, .card5 img, .card6 img, .card7 img, .card8 img, .card9 img, .card10 img, .card11 img, .card12 img, .card13 img{
         height: 450px;

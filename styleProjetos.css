@@ -35,8 +35,8 @@ main{
 }
 
 .menu-logo img{
-    width: 100%;
-    height: 43px;
+    width: 166px;
+    height: 63px;
 }
 
 .navbar{
@@ -67,7 +67,7 @@ main{
 .btn-toggle {
     position: absolute;
     right: 3rem;
-    top: 2.5%;
+    top: 5%;
     display: none;
     flex-direction: column;
     justify-content: space-between;
@@ -91,6 +91,7 @@ main{
         flex-direction: column;
         align-items: center;
         width: 100%;
+        height: 100px;
     }
     .navbar{
         padding: 1px 48px;

@@ -124,18 +124,6 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "block";
   dots[slideIndex-1].className += " active";
 }
-//buttons slide home
-function next(t){
-  let elm = t.parentElement.parentElement.children[0];
-  let item = elm.getElementsByClassName("card");
-  elm.append(item[0]);
-}
-
-function prev(t){
-  let elm = t.parentElement.parentElement.children[0];
-  let item = elm.getElementsByClassName("card");
-  elm.prepend(item[item.length - 1]);
-}
 //slide2 pag inicial depoimentos
 var slideIndex = 1;
 showSlides(slideIndex);

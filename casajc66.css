@@ -196,15 +196,6 @@ body{
     max-width: 1900px;
     margin: auto;
 }
-.slider{
-    display: flex;
-    width: auto;
-    overflow-x: auto;
-    scroll-snap-type: x mandatory;
-    scroll-behavior: smooth;
-    scrollbar-width: 0;
-    box-shadow: 0 1.5rem 3 rem -0.75rem hsla(0, saturation, lightness, alpha);
-}
 .slider::-webkit-scrollbar{
     display: none;
 }
@@ -248,80 +239,6 @@ body{
     opacity: 1;
     background-color: #FFF;
     cursor: pointer;
-}
-.container-slider{
-    display: flex;
-    position: relative;
-    width: 100%;
-    max-width: 500px;
-    margin: auto;
-}
-.slider-wrapper{
-    margin-top: 40px;
-    margin-bottom: 40px;
-    animation: scroll 40% linear infinite;
-}
-
-@keyframes scroll {
-    0% {
-        transform: translateX(0);
-    }
-    100% {
-        transform: translateX(calc(-250px * 4));
-    }
-}
-
-.slider img{
-    width: 100%;
-    max-width: 2900px;
-    object-fit: cover;
-    /*height: 800px;*/
-}
-#arrowSlider1{
-    position: absolute;
-    height: 50px;
-    width: 50px;
-    text-align: center;
-    font-size: 40px;
-    font-weight: 300;
-    font-family: Arial, Helvetica, sans-serif;
-    color: white;
-    border-radius: 50%;
-    cursor: pointer;
-    top: 40%;
-    cursor: pointer;
-}
-#arrowSlider1:first-child{
-    left: 5%;
-}
-#arrowSlider1:last-child{
-    right: 5%;
-}
-@media screen and (max-width: 720px){
-    .container-slider{
-        display: flex;
-        position: relative;
-        width: 100%;
-        max-width: 300px;
-        margin: auto;
-    }
-    .slider2-nav a{
-        width: 0.4rem;
-        height: 0.4rem;
-        border-radius: 50%;
-        background-color: #d5d3d3;
-        opacity: 0.75;
-        transition: opacity ease 2s;
-    }
-}
-@media screen and (max-width: 570px){
-    .container-slider{
-        display: flex;
-        position: relative;
-        width: 100%;
-        max-width: 150px;
-        margin: auto;
-    }
 }
 
 .slider.dragging .slider-img{
@@ -417,7 +334,7 @@ body{
         display: flex;
         position: relative;
         width: 100%;
-        max-width: 300px;
+        max-width: 350px;
         margin: auto;
     }
     .slider1-nav a{
@@ -434,7 +351,7 @@ body{
         display: flex;
         position: relative;
         width: 100%;
-        max-width: 200px;
+        max-width: 350px;
         margin: auto;
     }
     #arrowSlider1{

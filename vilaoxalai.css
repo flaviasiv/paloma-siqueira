@@ -297,7 +297,7 @@ body{
         display: flex;
         position: relative;
         width: 100%;
-        max-width: 300px;
+        max-width: 350px;
         margin: auto;
     }
     .slider1-nav a{
@@ -314,7 +314,7 @@ body{
         display: flex;
         position: relative;
         width: 100%;
-        max-width: 250px;
+        max-width: 350px;
         margin: auto;
     }
     #arrowSlider1:first-child{

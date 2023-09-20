@@ -286,7 +286,7 @@ body{
         display: flex;
         position: relative;
         width: 100%;
-        max-width: 300px;
+        max-width: 350px;
         margin: auto;
     }
     .slider1-nav a{

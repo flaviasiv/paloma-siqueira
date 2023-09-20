@@ -432,11 +432,11 @@ body{
     position: absolute;
     font-style: normal;
 }
-.prev2{
-    left: 20px;
+.slider2-wrapper i:first-child{
+    left: 3%;
 }
-.next2{
-    right: 50px;
+.slider2-wrapper i{
+    right: 3%;
 }
 .carousel .card {
     list-style: none;

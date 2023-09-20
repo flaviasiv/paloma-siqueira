@@ -433,8 +433,9 @@ body{
     justify-content: center;
     padding-top: 50px;
     width: 100%;
-    max-width: 1200px;
+    max-width: 1900px;
     margin: auto;
+    background-color: #f0f0f0;
 }
 .outros p{
     display: flex;
@@ -446,6 +447,11 @@ body{
     padding: 3.75rem;
     font-size: 10vw;
     line-height: 0.8;
+}
+@media screen and (max-width: 720px) {
+    .outros{
+        padding-top: 0px;        
+    }
 }
 
 .slider2-wrapper{

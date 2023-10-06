@@ -1,6 +1,6 @@
 ## Potifólio da arquiteta Paloma Siqueira
 
-<div align="center"><img src="https://i.ibb.co/wQyB5cy/read-palomasiq2.png" alt="PrintScreen da Home da página da arquiteta Paloma Siqueira" height="100%"></div>
+<div align="center"><img src="https://i.ibb.co/Y3YjzmG/read-palomasiq2.png" alt="PrintScreen da Home da página da arquiteta Paloma Siqueira" height="100%"></div>
 
 <p align="center">
 <img src="http://img.shields.io/badge/Status-CONCLU%C3%8DDO-green?logoColor=%23333&labelColor=%23333"/>
@@ -27,5 +27,5 @@
 <p>Para qualquer ajuda, esclarecimento ou interesse em jobs pode me contatar por <a href="github.com/flaviasiv" Target="_blank">aqui mesmo</a>, ou me mandar um <a href=mailto:flaviasivm@gmail.com" Target="_blank">e-mail</a>! </p>
 
 ## Autores do projeto :construction_worker:
-Web developer: Flavia Sigoli 
+Web developer: Flavia Sigoli <br>
 Web designer: Lucas Moraes

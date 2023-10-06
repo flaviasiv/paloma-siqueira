@@ -1,7 +1,7 @@
 ## Potifólio da arquiteta Paloma Siqueira
 
 <div align="center"><img src="https://i.ibb.co/Y3YjzmG/read-palomasiq2.png" alt="PrintScreen da Home da página da arquiteta Paloma Siqueira" height="100%"></div>
-
+<br><br>
 <p align="center">
 <img src="http://img.shields.io/badge/Status-CONCLU%C3%8DDO-green?logoColor=%23333&labelColor=%23333"/>
 </p>
@@ -18,7 +18,7 @@
 - `header com menu e responsividade do menu com um toggle navigation`: Header com max width centralizado, também responsivo, onde o display do toggle navigation ficava none até certo width da página. tal qual funcionalidade do mesmo via JavaScript 
 - `"read more" e "read less"`: para maior beleza e fluidez da página inicial e de alguns projetos que requiseram maior descrição foi utilizado a funcionalidade "Ler mais"/"Ler menos". 
 
-<p align="center"> <img alt="Imagem da responsividade do menu header" title="responsividade do menu header" src="https://i.ibb.co/KhsxGP8/1696596876157.jpg" height="400" /></p> <p align="center"> <img alt="Imagem do "ler mais" na descriçao" title="exemplo do "ler mais" na descriçao" src="https://i.ibb.co/MfwZ71d/read-palomasiq.png" height="400" /></p>
+<p float="left"> <img alt="Imagem da responsividade do menu header" title="responsividade do menu header" src="https://i.ibb.co/KhsxGP8/1696596876157.jpg" height="400" /> <img alt="Imagem da responsividade da página de projetos" title="responsividade da página projetos" src="https://i.ibb.co/zQ4jQwL/1696596876150.jpg" height="400" /> <img alt="Imagem do 'ler mais' na descriçao" title="exemplo do 'ler mais' na descriçao" src="https://i.ibb.co/ScDgqDz/read-palomasiq.png" height="400" /></p>
 
 ## Como os usuários podem achá-lo :computer:
 <p align="center">O site tem o domínio de <a href="palomasiqueira.com">palomasiqueira.com</a> e pode ser achado facilmente em site de pesquisas como Google pesquisando o nome da arquiteta Paloma Siqueira :mag:. 

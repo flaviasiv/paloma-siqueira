@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'NHAASGROTESKTXPRO65MD';
+    src: url('fonts/NHAASGROTESKTXPRO65MD.eot');
+    src: url('fonts/NHAASGROTESKTXPRO65MD.eot') format('embedded-opentype'),
+         url('fonts/NHAASGROTESKTXPRO65MD.woff2') format('woff2'),
+         url('fonts/NHAASGROTESKTXPRO65MD.woff') format('woff'),
+         url('fonts/NHAASGROTESKTXPRO65MD.ttf') format('truetype'),
+         url('fonts/NHAASGROTESKTXPRO65MD.svg#NHAASGROTESKTXPRO65MD') format('svg');
+}

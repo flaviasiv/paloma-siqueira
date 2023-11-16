@@ -193,6 +193,9 @@ line-height: 120%;
         display: block;
         margin-bottom: 100px;
     }
+    .about{
+        margin:30px 0 50px 0;
+    }
     .title{
         padding: 40px 20px 0px 0px;}
     .title p{
@@ -202,6 +205,9 @@ line-height: 120%;
 @media screen and (max-width: 520px) {
     .title p{
         font-size: 70px;
+    }
+    .title span{
+        font-size:28px;
     }
 }
 .about-quote{
@@ -356,6 +362,8 @@ line-height: 120%;
         max-width: 350px;
         margin: auto;
     }
+    #arrowSlider1{
+        color: rgb(214, 211, 211);}
     #arrowSlider1:first-child{
         left: 0;
     }
@@ -548,14 +556,14 @@ line-height: 120%;
     margin: auto;
 }
 
-#textslide1, #textslide2, #textslide3, #textslide4, #textslide5, #textslide6, #textslide7, #textslide8, #textslide9, #textslide10, #textslide11, #textslide12, #textslide13 {
+#textslide1, #textslide2, #textslide3, #textslide4, #textslide5, #textslide6, #textslide7, #textslide8, #textslide9, #textslide10, #textslide11, #textslide12, #textslide13,#textslide14, #textslide15, #textslide16  {
     display: block;
     align-items: center;
     left: 50%;
     padding-bottom: 10px;
 }
 
-#textslide1 h1, #textslide2 h1, #textslide3 h1, #textslide4 h1, #textslide5 h1, #textslide6 h1, #textslide7 h1, #textslide8 h1, #textslide9 h1, #textslide11 h1, #textslide12 h1, #textslide13 h1{
+#textslide1 h1, #textslide2 h1, #textslide3 h1, #textslide4 h1, #textslide5 h1, #textslide6 h1, #textslide7 h1, #textslide8 h1, #textslide9 h1, #textslide11 h1, #textslide12 h1, #textslide13 h1,#textslide14 h1, #textslide15 h1, #textslide16 h1{
     display: block;
     align-items: end;
     padding-bottom: 5px;
@@ -583,7 +591,7 @@ line-height: 120%;
     margin-bottom: -22px;
 }
 
-#textslide1 h2, #textslide2 h2, #textslide3 h2, #textslide4 h2, #textslide5 h2, #textslide6 h2, #textslide7 h2, #textslide8 h2, #textslide9 h2, #textslide10 h2, #textslide11 h2, #textslide12 h2, #textslide13 h2{
+#textslide1 h2, #textslide2 h2, #textslide3 h2, #textslide4 h2, #textslide5 h2, #textslide6 h2, #textslide7 h2, #textslide8 h2, #textslide9 h2, #textslide10 h2, #textslide11 h2, #textslide12 h2, #textslide13 h2, #textslide14 h2, #textslide15 h2, #textslide16 h2{
     display: block;
     align-items: end;
     padding-bottom: 5px;
@@ -592,7 +600,7 @@ line-height: 120%;
     font-weight: 700;
     font-style: normal;
 }
-#textslide1 h3, #textslide2 h3, #textslide3 h3, #textslide4 h3, #textslide5 h3, #textslide6 h3, #textslide7 h3, #textslide8 h3, #textslide9 h3, #textslide10 h3, #textslide11 h3, #textslide12 h3, #textslide13 h3{
+#textslide1 h3, #textslide2 h3, #textslide3 h3, #textslide4 h3, #textslide5 h3, #textslide6 h3, #textslide7 h3, #textslide8 h3, #textslide9 h3, #textslide10 h3, #textslide11 h3, #textslide12 h3, #textslide13 h3, #textslide14 h3, #textslide15 h3, #textslide16 h3{
     display: block;
     align-items: end;
     padding-bottom: 5px;
@@ -640,7 +648,7 @@ line-height: 120%;
     width: 73px;    
 }
 
-#textslide12 h4, #textslide13 h4{
+#textslide12 h4, #textslide13 h4, #textslide14 h4{
     padding: 5px;
     align-items: center;
     padding-bottom: 5px;
@@ -651,6 +659,19 @@ line-height: 120%;
     border: solid 1px black;
     border-radius: 20px;
     width: 83px; 
+}
+
+#textslide15 h4, #textslide16 h4{
+    padding: 5px;
+    align-items: center;
+    padding-bottom: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    font-style: normal;
+    border: solid 1px black;
+    border-radius: 20px;
+    width: 90px; 
 }
 @media screen and (max-width: 790px) {
     .slider2-wrapper .carousel{

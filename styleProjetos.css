@@ -4,10 +4,19 @@
     box-sizing:border-box
     }
     
-    @font-face {
-    font-family:'Neue Haas Grotesk Display Pro';
-    src:url(NHAASGROTESKTXPRO-55RG.ttf) format("truetype")
-    }
+@font-face {
+    font-family: 'Neue';
+    src: 
+    local('Neue');
+    src: url('NEUEHAASDISPLAYBLACK.TTF') format('truetype');
+    src: url('NHAASGROTESKTXPRO65MD.eot?#iefix') format('embedded-opentype'); 
+    src:url('NHAASGROTESKTXPRO65MD.eot'),
+         url('NHAASGROTESKTXPRO65MD.woff') format('woff'),
+         url('NHAASGROTESKTXPRO65MD.woff2') format('woff2'),
+         url('NHAASGROTESKTXPRO65MD.svg#NeueHaasGroteskDisplayPro') format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
     
     body {
     background:#FFF;
@@ -169,14 +178,14 @@
     z-index:1
     }
     
-    .card1,.card2,.card3,.card4,.card5,.card5,.card6,.card7,.card8,.card9,.card10,.card11,.card12,.card13 {
+    .card1,.card2,.card3,.card4,.card5,.card5,.card6,.card7,.card8,.card9,.card10,.card11,.card12,.card13, .card14, .card15, .card16 {
     display:block;
     align-items:center;
     left:50%;
     padding-bottom:10px
     }
     
-    .card1 h1,.card2 h1,.card3 h1,.card4 h1,.card5 h1,.card6 h1,.card7 h1,.card8 h1,.card9 h1,.card10 h1,.card11 h1,.card12 h1,.card13 h1 {
+    .card1 h1,.card2 h1,.card3 h1,.card4 h1,.card5 h1,.card6 h1,.card7 h1,.card8 h1,.card9 h1,.card10 h1,.card11 h1,.card12 h1,.card13 h1, .card14 h1, .card15 h1, .card16 h1{
     display:block;
     align-items:end;
     padding-bottom:5px;
@@ -188,7 +197,7 @@
     color:#000
     }
     
-    .card1 h2,.card2 h2,.card3 h2,.card4 h2,.card5 h2,.card5 h2,.card6 h2,.card7 h2,.card8 h2,.card9 h2,.card10 h2,.card11 h2,.card12 h2,.card13 h2 {
+    .card1 h2,.card2 h2,.card3 h2,.card4 h2,.card5 h2,.card5 h2,.card6 h2,.card7 h2,.card8 h2,.card9 h2,.card10 h2,.card11 h2,.card12 h2,.card13 h2, .card14 h2,.card15 h2,.card16 h2 {
     display:block;
     align-items:end;
     padding-bottom:5px;
@@ -208,7 +217,7 @@
     font-style:normal
     }
     
-    .card1 h4,.card2 h4,.card3 h4,.card4 h4,.card5 h4,.card5 h4,.card6 h4,.card7 h4,.card8 h4,.card9 h4,.card10 h4,.card11 h4,.card12 h4,.card13 h4 {
+    .card1 h4,.card2 h4,.card3 h4,.card4 h4,.card5 h4,.card5 h4,.card6 h4,.card7 h4,.card8 h4,.card9 h4,.card10 h4,.card11 h4,.card12 h4,.card13 h4{
     padding:5px;
     align-items:center;
     padding-bottom:5px;
@@ -247,7 +256,7 @@
     width:73px
     }
     
-    .card12 h4,.card13 h4 {
+    .card12 h4,.card13 h4,.card14 h4 {
     padding:5px;
     align-items:center;
     padding-bottom:5px;
@@ -259,7 +268,18 @@
     border-radius:20px;
     width:83px
     }
-    
+    .card15 h4,.card16 h4 {
+        padding:5px;
+        align-items:center;
+        padding-bottom:5px;
+        font-family:Arial,Helvetica,sans-serif;
+        font-size:12px;
+        font-weight:700;
+        font-style:normal;
+        border:solid 1px #000;
+        border-radius:20px;
+        width:90px
+    }
     @media screen and (max-width: 780px) {
     .container {
     margin-top:50px

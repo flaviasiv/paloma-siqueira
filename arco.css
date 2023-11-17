@@ -123,7 +123,7 @@ main{
     font-family: 'Neue Haas Grotesk Display Pro';
 }
 .title{
-    margin:50px 0 50px 0;
+    margin:0 0 50px 0;
     display: flex;
     text-align: start;
     align-items: end;
@@ -133,7 +133,7 @@ main{
     font-size: 130px;
     font-weight: 400;
     font-style: normal;
-    line-height: 0.8;
+    line-height: 0.95;
 }
 .about{
     margin:50px 0 50px 0;}
@@ -291,7 +291,16 @@ main{
 .frame6 img:last-child{
     padding-bottom: 0;
 }
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 1360px) {
+    .frame8 img{
+        max-width: 502px;
+    }
+    .frame8 p{
+        max-width: 282px;
+        font-size: 16px;
+    }  
+}
+@media screen and (max-width: 880px) {
     .frame4 img{
         display: flex;
         max-width: 100%;
@@ -307,10 +316,15 @@ main{
         padding-right: 10px;
         margin-bottom: 40px;
     }
+    .frame8{
+        flex-direction: column;
+    }
     .frame8 img{
-        max-width: 502px;
+        max-width: 452px;
+        margin: auto;
     }
     .frame8 p{
+        margin: 30 0 0 0;
         max-width: 242px;
         font-size: 14px;
     }  

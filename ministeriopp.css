@@ -120,7 +120,6 @@ main{
     max-width: 1190px;
     margin: auto;
     padding: 0 20px;
-    font-family: 'Neue Haas Grotesk Display Pro';
 }
 .title{
     margin:0px 0 50px 0;
@@ -170,7 +169,6 @@ line-height: 120%;
     font-size: 14px;
     font-weight: 700;
     font-style: bold;
-    font-family: 'Neue Haas Grotesk Display Pro';
     margin-top: 18px;
 }
 .about p{
@@ -221,7 +219,6 @@ line-height: 120%;
 .about-quote p{
     width: 100%;
     max-width: 278px;
-    font-family: 'Neue Haas Grotesk Display Pro';
     font-size: 16px;
     font-weight: 500;
     justify-content: right;
@@ -385,7 +382,6 @@ line-height: 120%;
     margin-right: 60px;
     width: 100%;
     max-width: 318px;
-    font-family: 'Neue Haas Grotesk Display Pro';
     font-size: 16px;
     font-weight: 500;
     justify-content: right;

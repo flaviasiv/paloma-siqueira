@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 @font-face {
-    font-family: 'Neue';
+    font-family: 'Neue Haas Grotesk Display Pro';
     src: 
     local('Neue');
     src: url('NEUEHAASDISPLAYBLACK.TTF') format('truetype');
@@ -139,11 +139,11 @@ main{
     line-height: 0.8;
 }
 .title span{
-    margin-top: 28px;
-    font-size: 48px;
+    margin-top: 8px;
+    font-size: 38px;
 font-style: normal;
 font-weight: 500;
-line-height: 100%;
+line-height: 120%;
 }
 .about{
     margin:50px 0 50px 0;
@@ -191,7 +191,7 @@ line-height: 100%;
 @media screen and (max-width: 820px) {
     .sobre{
         display: block;
-        margin-bottom: 100px;
+        margin-bottom: 80px;
     }
     .about{
         margin:30px 0 50px 0;

@@ -309,11 +309,11 @@
     z-index:1
     }
     
-    .card1,.card2,.card3,.card4,.card5,.card5,.card6,.card7,.card8,.card9,.card10,.card11,.card12,.card13 {
+    .card1,.card2,.card3,.card4,.card5,.card5,.card6,.card7,.card8,.card9,.card10,.card11,.card12,.card13,.card14,.card15,.card16 {
     margin-bottom:40px
     }
     
-    .card1 img,.card2 img,.card3 img,.card4 img,.card5 img,.card5 img,.card6 img,.card7 img,.card8 img,.card9 img,.card10 img,.card11 img,.card12 img,.card13 img {
+    .card1 img,.card2 img,.card3 img,.card4 img,.card5 img,.card5 img,.card6 img,.card7 img,.card8 img,.card9 img,.card10 img,.card11 img,.card12 img,.card13 img,.card14 img,.card15 img,.card16 img {
     height:450px;
     max-height:100%
     }
@@ -325,7 +325,7 @@
     }
     
     @media screen and (max-width: 580px) {
-    .card1 img,.card2 img,.card3 img,.card4 img,.card5 img,.card5 img,.card6 img,.card7 img,.card8 img,.card9 img,.card10 img,.card11 img,.card12 img,.card13 img {
+    .card1 img,.card2 img,.card3 img,.card4 img,.card5 img,.card5 img,.card6 img,.card7 img,.card8 img,.card9 img,.card10 img,.card11 img,.card12 img,.card13 img,.card14 img,.card15 img,.card16 img {
     height:350px;
     max-height:100%
     }

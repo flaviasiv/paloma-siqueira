@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 @font-face {
-    font-family: 'Neue';
+    font-family: 'Neue Haas Grotesk Display Pro';
     src: 
     local('Neue');
     src: url('NEUEHAASDISPLAYBLACK.TTF') format('truetype');
@@ -142,7 +142,7 @@ main{
     margin-top: 50px;
     font-size: 48px;
 font-style: normal;
-font-weight: 500;
+font-weight: 400;
 line-height: 120%;
 }
 .about{
@@ -204,7 +204,10 @@ line-height: 120%;
 }
 @media screen and (max-width: 520px) {
     .title p{
-        font-size: 70px;
+        font-size:60px;
+    }
+    .title span{
+        font-size: 35px;
     }
 }
 .about-quote{

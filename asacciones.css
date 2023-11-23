@@ -441,17 +441,16 @@ main{
     padding-bottom: 10px;
 }
 
-#textslide1 h1, #textslide2 h1, #textslide3 h1, #textslide4 h1, #textslide5 h1, #textslide6 h1, #textslide7 h1, #textslide8 h1, #textslide9 h1, #textslide11 h1, #textslide12 h1, #textslide13 h1,#textslide14 h1, #textslide15 h1, #textslide16 h1{
+.slider2-wrapper .textslide h1{
     display: block;
     align-items: end;
     padding-bottom: 5px;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 27px;
-    font-weight: 400;
+    font-size: 26.2px;
+    font-weight: 500;
     font-style: normal;
     line-height: 0.8;
     color: black;
-    white-space: nowrap;
 }
 #textslide10 h1{
     display: block;
@@ -459,7 +458,7 @@ main{
     margin-left: -10px;
     padding-bottom: 5px;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 27px;
+    font-size: 26.2px;
     font-weight: 400;
     font-style: normal;
     line-height: 0.8;
@@ -486,6 +485,7 @@ main{
     font-size: 14px;
     font-weight: 700;
     font-style: normal;
+    margin-top: 5px;
 }
 #textslide1 h4, #textslide2 h4, #textslide3 h4, #textslide4 h4, #textslide5 h4, #textslide6 h4, #textslide7 h4, #textslide8 h4, #textslide9 h4, #textslide10 h4, #textslide11 h4, #textslide12 h4, #textslide13 h4{
     padding: 5px;
@@ -551,9 +551,56 @@ main{
     border-radius: 20px;
     width: 90px; 
 }
+@media screen and (max-width:1200) {
+    
+    #textslide10 h1{
+        font-size: 19px;
+    }
+}
 @media screen and (max-width: 790px) {
+    .textslide {
+        height: 350px;
+    }
     .slider2-wrapper .textslide a img{
         height: 250px;
+    }
+    .slider2-wrapper .textslide h1{
+        font-size: 18px;
+    }
+    #textslide10 h1{
+        margin-left: -5px;
+        font-size: 17px;
+        max-width: 190px;
+        margin-bottom: -13px;
+    }
+    #textslide1 h2, #textslide2 h2, #textslide3 h2, #textslide4 h2, #textslide5 h2, #textslide6 h2, #textslide7 h2, #textslide8 h2, #textslide9 h2, #textslide10 h2, #textslide11 h2, #textslide12 h2, #textslide13 h2, #textslide14 h2, #textslide15 h2, #textslide16 h2{
+        font-size: 12px;
+    }
+    #textslide1 h3, #textslide2 h3, #textslide3 h3, #textslide4 h3, #textslide5 h3, #textslide6 h3, #textslide7 h3, #textslide8 h3, #textslide9 h3, #textslide10 h3, #textslide11 h3, #textslide12 h3, #textslide13 h3, #textslide14 h3, #textslide15 h3, #textslide16 h3{
+        font-size: 11px;
+    }
+    #textslide1 h4, #textslide2 h4, #textslide3 h4, #textslide4 h4, #textslide5 h4, #textslide6 h4, #textslide7 h4, #textslide8 h4, #textslide9 h4, #textslide10 h4, #textslide11 h4, #textslide12 h4, #textslide13 h4{
+        font-size: 10px;
+    }
+    
+    #textslide1 h4, #textslide2 h4, #textslide3 h4, #textslide4 h4, #textslide5 h4, #textslide8 h4 {
+        font-size: 10px;
+        width: 105px;
+    }
+    
+    #textslide6 h4, #textslide7 h4,  #textslide9 h4, #textslide10 h4, #textslide11 h4{
+        font-size: 10px;
+        width: 63px;    
+    }
+    
+    #textslide12 h4, #textslide13 h4, #textslide14 h4{
+        font-size: 10px;
+        width: 72px; 
+    }
+    
+    #textslide15 h4, #textslide16 h4{
+        font-size: 10px;
+        width:75px; 
     }
 }
 

@@ -375,7 +375,6 @@ body{
 }
 
 
-
 .slider2-wrapper{
     position: relative;
     align-items: center;
@@ -388,59 +387,22 @@ body{
     padding-bottom: 100px;
     background-color: #f0f0f0;
 }
-.slider2-wrapper i{
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    transition: transform 0.1s linear;
-    background-color: transparent;
-    color: #FFF;
-    font-size: 3vw;
-    text-align: center;
-    line-height: 50px;
-    border-radius: 50%;
-    cursor: pointer;
-    font-style: normal;
+.swiper-button-next{
+    z-index: 9;
 }
-.slider2-wrapper i:active{
-    transform: translateY(-50%) scale(0.85);
-}
-#prev2{
-    left: 20px;
-}
-#next2{
-    right: 50px;
-}
-
-.carousel li {
+.textslide {
     flex-direction: column;
     align-items: center;
     justify-content: center;
     list-style: none;
-    height: 500px;
+    height: 430px;
     width: 100%;
     margin-top: 40px;
     cursor: pointer;
+    margin-left: 10px;
 }
-.carousel.dragging .card{
-    cursor: grab;
-    user-select: none;
-}
-.slider2-wrapper .carousel {
-    display: grid;
-    grid-auto-flow: column;
-    grid-auto-columns: auto;
-    gap: 10px;
-    overflow-x: hidden;
-    scroll-snap-type: x mandatory;
-    scroll-behavior: smooth;
-    scrollbar-width: none;
-}
-.carousel .card{
-    scroll-snap-align: start;
-}
-.slider2-wrapper .carousel .textslide a img{
-    height: 380px;
+.slider2-wrapper .textslide a img{
+    height: 320px;
     width: auto;
     margin: auto;
 }
@@ -563,19 +525,11 @@ body{
     width: 90px; 
 }
 @media screen and (max-width: 790px) {
-    .slider2-wrapper .carousel{
-        grid-auto-columns: auto;
-    }
-    .slider2-wrapper i{
-        height: 40px;
-        width: 40px;
-        text-align: center;
-        line-height: 50px;
-        background-color: transparent;
-        color: #FFF;
-        font-size: 5vw;
+    .slider2-wrapper .textslide a img{
+        height: 250px;
     }
 }
+
 
 footer {
     background-color: black;

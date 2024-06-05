@@ -1,4 +1,4 @@
-## Potifólio da arquiteta Paloma Siqueira
+## Portifólio da arquiteta Paloma Siqueira
 
 <div align="center"><img src="https://i.ibb.co/Y3YjzmG/read-palomasiq2.png" alt="PrintScreen da Home da página da arquiteta Paloma Siqueira" height="100%"></div>
 <br><br>

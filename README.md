@@ -24,7 +24,7 @@
 <p align="center">O site tem o domínio de <a href="palomasiqueira.com">palomasiqueira.com</a> e pode ser achado facilmente em site de pesquisas como Google pesquisando o nome da arquiteta Paloma Siqueira :mag:. 
 
 ## Onde os usuários podem encontrar ajuda sobre seu projeto; :paw_prints:
-<p>Para qualquer ajuda, esclarecimento ou interesse em jobs pode me contatar por <a href="github.com/flaviasiv" Target="_blank">aqui mesmo</a>, ou me mandar um <a href=mailto:flaviasivm@gmail.com" Target="_blank">e-mail</a>! </p>
+<p>Para qualquer ajuda, esclarecimento ou interesse em jobs pode me contatar por <a href="github.com/flaviasiv" Target="_blank">aqui mesmo</a>, ou me mandar uma mensagem no <a <a href="https://www.linkedin.com/in/flaviasigoli/" Target="_blank">LinkedIn</a>! </p>
 
 ## Autores do projeto :construction_worker:
 Web developer: Flavia Sigoli <br>

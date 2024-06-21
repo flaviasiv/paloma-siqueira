@@ -1,6 +1,6 @@
 ## Portifólio da arquiteta Paloma Siqueira
 
-<div align="center"><img src="https://i.ibb.co/Y3YjzmG/read-palomasiq2.png" alt="PrintScreen da Home da página da arquiteta Paloma Siqueira" height="100%"></div>
+<div align="center"><img src="https://i.ibb.co/RQ9Gpd9/gif-paloma-arch.gif" alt="PrintScreen da Home da página da arquiteta Paloma Siqueira" height="100%"></div>
 <br><br>
 <p align="center">
 <img src="http://img.shields.io/badge/Status-CONCLU%C3%8DDO-green?logoColor=%23333&labelColor=%23333"/>
@@ -24,7 +24,7 @@
 <p align="center">O site tem o domínio de <a href="palomasiqueira.com">palomasiqueira.com</a> e pode ser achado facilmente em site de pesquisas como Google pesquisando o nome da arquiteta Paloma Siqueira :mag:. 
 
 ## Onde os usuários podem encontrar ajuda sobre seu projeto; :paw_prints:
-<p>Para qualquer ajuda, esclarecimento ou interesse em jobs pode me contatar por <a href="github.com/flaviasiv" Target="_blank">aqui mesmo</a>, ou me mandar uma mensagem no <a <a href="https://www.linkedin.com/in/flaviasigoli/" Target="_blank">LinkedIn</a>! </p>
+<p>Para qualquer ajuda, esclarecimento ou interesse em jobs pode me contatar por <a href="https://github.com/flaviasiv" Target="_blank">aqui mesmo</a>, ou me mandar uma mensagem no <a <a href="https://www.linkedin.com/in/flaviasigoli/" Target="_blank">LinkedIn</a>! </p>
 
 ## Autores do projeto :construction_worker:
 Web developer: Flavia Sigoli <br>

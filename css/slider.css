@@ -145,13 +145,14 @@ swiper-slide{
     }
 }
 @media screen and (max-width: 790px) {
-    #textslide10 h1, #textslide18 h1, #textslide19 h1{
-        font-size: 18px;
-    }
-    #textslide18 {
-        margin:0px;
-    } 
     #textslide19 h1{
+        font-size: 18px;
+        margin-bottom: -18px;
+        margin-top: 0;
+    }
+    #textslide18 h1{
+        font-size: 18px;
+        text-align: left;
         margin: 0;
     }
     .textslide {

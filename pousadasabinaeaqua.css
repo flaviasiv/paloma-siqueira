@@ -177,10 +177,13 @@ body{
         justify-content: start;
         width: 100%;
         max-width: 1190px;
-        font-size: 130px;
+        font-size: 60px;
         font-weight: 400;
         line-height: 0.8;
         margin-bottom: 20px;
+    }
+    .titleaqua{
+        font-size: 55px;
     }
 }
 .frame1 img{
@@ -399,6 +402,11 @@ body{
  max-width: 680px;
  right: 0;
 }
+.frame5 label{
+    font-family: "Neue";
+    font-size: 16px;
+    line-height: 100%;
+}
 .frame4 img{
     display: flex;
     width: 100%;
@@ -411,6 +419,15 @@ body{
         flex-direction: column;
         padding: 5vw 20vw;
         gap: 5px;
+    }
+    .frame5{
+     padding-right: 20px;
+    }
+    .frame5 img{
+     max-width: 60vw;
+    }
+    .frame5 label{
+        font-size: 12px;
     }
     .frame3ampli img{
         height: 100%;

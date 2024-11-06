@@ -145,14 +145,23 @@ swiper-slide{
     }
 }
 @media screen and (max-width: 790px) {
+    #textslide10 h1, #textslide18 h1, #textslide19 h1{
+        font-size: 18px;
+    }
+    #textslide18 {
+        margin:0px;
+    } 
+    #textslide19 h1{
+        margin: 0;
+    }
     .textslide {
         height: 350px;
     }
-    .slider2-wrapper .textslide a img{
-        height: 250px;
-    }
     .slider2-wrapper .textslide h1{
         font-size: 18px;
+    }
+    .textslide a img, .textslide a{
+        width: 100%;
     }
     #textslide10 h1{
         margin-left: -5px;

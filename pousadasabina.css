@@ -14,14 +14,11 @@
          url('NHAASGROTESKTXPRO65MD.woff2') format('woff2'),
          url('NHAASGROTESKTXPRO65MD.svg#NeueHaasGroteskDisplayPro') format('svg');
     font-weight: normal;
-    font-style: normal;
-  }
-
+}
 body{
     background: #FFF;
     font-family: Arial, Helvetica, sans-serif;
 }
-
 #home{
     display: flex;
     justify-content: space-between;
@@ -30,23 +27,19 @@ body{
     margin: auto;
     height: auto;
 }
-
 .menu-logo {
     display: flex;
     max-width: fit-content;
     padding: 8px 0px 8px 18px;
 }
-
 .menu-logo img{
     width: 166px;
     height: 63px;
 }
-
 .navbar{
     display: flex;
     padding: 24px 48px;
 }
-
 .menu-links{
     display: flex;
     justify-content: space-between;
@@ -54,20 +47,17 @@ body{
     height: auto;
     align-items: center;
 }
-
 .menu-links a{
     display: block;
     color: #000;
     text-decoration: none;
     font-family: 'Inter', sans-serif;
     font-size: 18px;
-    font-style: normal;
     text-align: left;
     font-weight: 400;
     line-height: normal;
     letter-spacing: -1.2px;
 }
-
 .btn-toggle {
     position: absolute;
     right: 3rem;
@@ -78,14 +68,12 @@ body{
     width: 15px;
     height: 15px;
 }
-
 .btn-toggle .bar{
     height: 3px;
     width: 100%;
     background-color: #333;
     border-radius: 20px;
 }
-
 @media only screen and (max-width: 768px){
     .btn-toggle {
         display: flex;
@@ -111,7 +99,6 @@ body{
         display: flex;
     }
 }
-
 .sobre{
     display: flex;
     width: 100%;
@@ -130,7 +117,6 @@ body{
     max-width: 1190px;
     font-size: 130px;
     font-weight: 400;
-    font-style: normal;
     line-height: 0.8;
 }
 .about h2{
@@ -144,7 +130,7 @@ body{
     padding: 8px 16px;
     border: solid 1px black;
     border-radius: 20px;
-    width: 150px;
+    width: 105px;
 }
 .about h3{
     display: flex;
@@ -157,13 +143,18 @@ body{
     font-style: bold;
     margin-top: 18px;
 }
+.about h5{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1;
+    margin-top: 18px;
+}
 .about p{
     display: flex;
     justify-content: start;
     align-items: stretch;
     font-weight: 400;
     font-size: 14px;
-    font-style: normal;
     line-height: 1.6;
     margin-top: 18px;
 }
@@ -172,7 +163,6 @@ body{
     text-decoration: none;
     font-weight: 400;
     font-size: 14px;
-    font-style: normal;
     line-height: 1.6;
 }
 @media screen and (max-width: 720px) {
@@ -194,7 +184,6 @@ body{
         max-width: 1190px;
         font-size: 130px;
         font-weight: 400;
-        font-style: normal;
         line-height: 0.8;
         margin-bottom: 20px;
     }
@@ -217,14 +206,12 @@ body{
 .slider.no-transition{
     scroll-behavior: auto;
 }
-
 .slider a {
     flex: 1 0 100%;
     scroll-snap-align: start;
     scroll-snap-type: none;
     object-fit: cover;
 }
-
 .slider2-nav{
     display: flex;
     column-gap: 0.5rem;
@@ -234,7 +221,6 @@ body{
     transform: translateX(-50%);
     z-index: 1;
 }
-
 .slider2-nav a{
     width: 0.6rem;
     height: 0.6rem;
@@ -243,29 +229,24 @@ body{
     opacity: 0.75;
     transition: opacity ease 2s;
 }
-
 .slider2-nav a:hover{
     opacity: 1;
     background-color: #FFF;
     cursor: pointer;
 }
-
 .slider.dragging .slider-img{
     cursor: grab;
     user-select: none;
 }
-
 .slider.no-transition{
     scroll-behavior: auto;
 }
-
 .slider a {
     flex: 1 0 100%;
     scroll-snap-align: start;
     scroll-snap-type: none;
     object-fit: cover;
 }
-
 .slider1-nav{
     display: flex;
     column-gap: 0.5rem;
@@ -275,7 +256,6 @@ body{
     transform: translateX(-50%);
     z-index: 1;
 }
-
 .slider1-nav a{
     width: 0.6rem;
     height: 0.6rem;
@@ -284,7 +264,6 @@ body{
     opacity: 0.75;
     transition: opacity ease 2s;
 }
-
 .slider1-nav a:hover{
     opacity: 1;
     background-color: #FFF;
@@ -302,7 +281,6 @@ body{
     margin-bottom: 40px;
     animation: scroll 40% linear infinite;
 }
-
 @keyframes scroll {
     0% {
         transform: translateX(0);
@@ -311,7 +289,6 @@ body{
         transform: translateX(calc(-250px * 4));
     }
 }
-
 .slider img{
     width: 100%;
     max-width: 2900px;
@@ -373,7 +350,6 @@ body{
         right: 0;
     }
 }
-
 .frame2 img {
     display: flex;
     width: 100%;
@@ -390,7 +366,6 @@ body{
     padding-right: 100px;
     margin-bottom: 40px;
 }
-
 .frame4 {
     display: flex;
     justify-content: space-around;
@@ -462,8 +437,6 @@ body{
         padding-top: 0px;        
     }
 }
-
-
 .slider2-wrapper{
     position: relative;
     align-items: center;
@@ -495,14 +468,12 @@ body{
     width: auto;
     margin: auto;
 }
-
 #textslide1, #textslide2, #textslide3, #textslide4, #textslide5, #textslide6, #textslide7, #textslide8, #textslide9, #textslide10, #textslide11, #textslide12, #textslide13,#textslide14, #textslide15, #textslide16  {
     display: block;
     align-items: center;
     left: 50%;
     padding-bottom: 10px;
 }
-
 .slider2-wrapper .textslide h1{
     display: block;
     align-items: end;
@@ -510,7 +481,6 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 26.2px;
     font-weight: 500;
-    font-style: normal;
     line-height: 0.8;
     color: black;
 }
@@ -522,14 +492,12 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 26.2px;
     font-weight: 400;
-    font-style: normal;
     line-height: 0.8;
     color: black;
     text-align: end;
     max-width: 290px;
     margin-bottom: -22px;
 }
-
 #textslide1 h2, #textslide2 h2, #textslide3 h2, #textslide4 h2, #textslide5 h2, #textslide6 h2, #textslide7 h2, #textslide8 h2, #textslide9 h2, #textslide10 h2, #textslide11 h2, #textslide12 h2, #textslide13 h2, #textslide14 h2, #textslide15 h2, #textslide16 h2{
     display: block;
     align-items: end;
@@ -537,7 +505,6 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
     font-weight: 700;
-    font-style: normal;
 }
 #textslide1 h3, #textslide2 h3, #textslide3 h3, #textslide4 h3, #textslide5 h3, #textslide6 h3, #textslide7 h3, #textslide8 h3, #textslide9 h3, #textslide10 h3, #textslide11 h3, #textslide12 h3, #textslide13 h3, #textslide14 h3, #textslide15 h3, #textslide16 h3{
     display: block;
@@ -546,7 +513,6 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
     font-weight: 700;
-    font-style: normal;
     margin-top: 5px;
 }
 #textslide1 h4, #textslide2 h4, #textslide3 h4, #textslide4 h4, #textslide5 h4, #textslide6 h4, #textslide7 h4, #textslide8 h4, #textslide9 h4, #textslide10 h4, #textslide11 h4, #textslide12 h4, #textslide13 h4{
@@ -556,12 +522,10 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 12px;
     font-weight: 700;
-    font-style: normal;
     border: solid 1px black;
     border-radius: 20px;
     width: 125px;
 }
-
 #textslide1 h4, #textslide2 h4, #textslide3 h4, #textslide4 h4, #textslide5 h4, #textslide8 h4 {
     padding: 5px;
     align-items: center;
@@ -569,12 +533,10 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 12px;
     font-weight: 700;
-    font-style: normal;
     border: solid 1px black;
     border-radius: 20px;
     width: 125px;
 }
-
 #textslide6 h4, #textslide7 h4,  #textslide9 h4, #textslide10 h4, #textslide11 h4{
     padding: 5px;
     align-items: center;
@@ -582,12 +544,10 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 12px;
     font-weight: 700;
-    font-style: normal;
     border: solid 1px black;
     border-radius: 20px;
     width: 73px;    
 }
-
 #textslide12 h4, #textslide13 h4, #textslide14 h4{
     padding: 5px;
     align-items: center;
@@ -595,12 +555,10 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 12px;
     font-weight: 700;
-    font-style: normal;
     border: solid 1px black;
     border-radius: 20px;
     width: 83px; 
 }
-
 #textslide15 h4, #textslide16 h4{
     padding: 5px;
     align-items: center;
@@ -608,7 +566,6 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 12px;
     font-weight: 700;
-    font-style: normal;
     border: solid 1px black;
     border-radius: 20px;
     width: 90px; 
@@ -669,14 +626,12 @@ footer {
     background-color: black;
     padding: 20px 30px 15px;
 }
-
 .grid-footer {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     color: #a3a3a3;
     padding-bottom: 50px;
 }
-
 .grid-footer img{
     width: 250px;
     grid-column-start: 1;
@@ -684,14 +639,12 @@ footer {
     padding: 30px 50px 10px;
     position: absolute;
 }
-
 @media screen and (max-width: 560px) {
     .grid-footer img{
         width: 190px;
         height: auto;
         padding-left: 10px;}
 }
-
 .grid-footer h2{
     margin-top: 1.25rem;
     grid-column-start: 3;
@@ -701,7 +654,6 @@ footer {
     font-size: 14px;
     font-weight: 700 bold;
 }
-
 .grid-footer h5{
     margin-top: 1.5rem;
     grid-column-start: 3;
@@ -710,7 +662,6 @@ footer {
     font-size: 14px;
     font-weight: 400;
 }
-
 .grid-footer h6{
     margin-top: 1.25rem;
     grid-column-start: 3;
@@ -723,7 +674,6 @@ footer {
     grid-column-start: 3;
     grid-row-start: 4;
 }
-
 .copyright{
     padding: 20px 20px 0px;
     color: #333;

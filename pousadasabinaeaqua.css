@@ -125,6 +125,9 @@ body{
     border-bottom: 1px solid #000;
     padding-bottom: 40px;
 }
+.aboutamplia{
+    margin-bottom: 100px;
+}
 .about h2{
     font-size: 12px;
     font-weight: 700;
@@ -133,6 +136,9 @@ body{
     border: solid 1px black;
     border-radius: 20px;
     width: 105px;
+}
+.aboutamplia h2{
+    width: 214px;
 }
 .about h3{
     font-weight: 700;
@@ -263,6 +269,9 @@ body{
     max-width: 1000px;
     margin: auto;
 }
+.sliderampli{
+    max-width: 1100px;
+}
 .slider-wrapper{
     margin-top: 40px;
     margin-bottom: 40px;
@@ -345,8 +354,21 @@ body{
     margin-bottom: 40px;
 }
 .frame3{
+    width: 100%;
+    max-width: 100vw;
     background: #59A1D3;
     padding: 5vw 30vw;
+}
+.frame3ampli{
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+    margin: auto;
+    padding: 5vw 30vw;
+}
+.frame3ampli img{
+    max-width: 100%;
+    height: 520px;
 }
 .frame3 img{
     display: flex;
@@ -384,7 +406,15 @@ body{
     height: 100%;
     object-fit: cover;
 }
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 1020px) {
+    .frame3ampli{
+        flex-direction: column;
+        padding: 5vw 20vw;
+        gap: 5px;
+    }
+    .frame3ampli img{
+        height: 100%;
+    }
 }
 .outros{
     align-items: center;

@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/glider-js@1/glider.min.css" rel="stylesheet">
     <link rel="stylesheet" href="odoyalounge.css">
+    <link rel="stylesheet" href="css/slider.css">
     <link rel="stylesheet" href="swiper-bundle.min.css">
     <title>Odoyá Lounge Bar - Paloma Siqueira</title>
     <link rel="shortcut icon" href="./assets/ICONPALOMA.png" type="image/x-icon">
@@ -84,7 +85,10 @@
         <div class="outros">
             <p>OUTROS <br> PROJETOS</p>
         </div>
-        <swiper-container class="mySwiper slider2-wrapper" init="false" auto-height="true" space-between="10" navigation="true">
+        <swiper-container class="mySwiper slider2-wrapper" init="false" auto-height="true" slides-per-view="auto" pagination="true"
+        pagination-clickable="true" space-between="0" navigation="true" loop="true" 
+        autoplay="true"
+        pagination-dynamic-bullets="true">
           <swiper-slide>
             <div class="swipercontent textslide" id="textslide1">
                 <h1>CASA JC66</h1>
@@ -229,6 +233,35 @@
                 <h4>URBANISMO</h4>
             </div>
           </swiper-slide>
+          <swiper-slide>
+            <div class="swipercontent textslide" id="textslide17">
+                <h1>POUSADA SABINA</h1>
+                <h2>2022</h2>
+                <a target="_blank" href="pousadasabina.html"><img draggable="false" src="./assets/projeto-140.webp" alt="link projeto POUSADA SABINA"></a>
+                <div class="footerslider">
+                <h3>FOTOS: @minafotovideo @camislemonde</h3>
+                <h4>INTERIORES</h4></div>
+            </div>
+          </swiper-slide>
+          <swiper-slide>
+            <div class="swipercontent textslide" id="textslide18">
+                <h1>POUSADA AQUALTUNE</h1>
+                <h2>2021</h2>
+                <a target="_blank" href="pousadaaqualtune.html"><img draggable="false" src="./assets/projeto-150.webp" alt="link projeto POUSADA AQUALTUNE"></a>
+                <div class="footerslider">
+                <h3>FOTOS: @minafotovideo/ @camislemonde/Mariana Sena</h3>
+                <h4>URBANISMO</h4></div>
+            </div>
+          </swiper-slide>
+          <swiper-slide>
+            <div class="swipercontent textslide" id="textslide19">
+                <h1>POUSADA AQUALTUNE AMPLIAÇÃO</h1>
+                <h2>2024</h2>
+                <a target="_blank" href="pousadaaqualtuneampliacao.html"><img draggable="false" src="./assets/projeto-170.webp" alt="link projeto POUSADA AQUALTUNE AMPLIAÇÃO"></a>
+                <h3>FOTOS: Mariana Sena</h3>
+                <h4>URBANISMO</h4>
+            </div>
+          </swiper-slide>
           </swiper-container>
     </main>
 <footer>
@@ -257,24 +290,24 @@
 <script>
   const swiperEl = document.querySelector('swiper-container')
   Object.assign(swiperEl, {
-    slidesPerView: 2,
-    spaceBetween: 10,
-    loop: true,
-    autoplay: true,
-    breakpoints: {
-      600: {
-        slidesPerView: 2,
-        spaceBetween: 20,
-      },
-      968: {
-        slidesPerView: 4,
-        spaceBetween: 40,
-      },
-      1224: {
-        slidesPerView: 6,
-        spaceBetween: 50,
-      },
-    },
+    // slidesPerView: 2,
+    // spaceBetween: 10,
+    // loop: true,
+    // autoplay: true,
+    // breakpoints: {
+    //   600: {
+    //     slidesPerView: 2,
+    //     spaceBetween: 20,
+    //   },
+    //   968: {
+    //     slidesPerView: 4,
+    //     spaceBetween: 40,
+    //   },
+    //   1224: {
+    //     slidesPerView: 6,
+    //     spaceBetween: 50,
+    //   },
+    // },
     navigation: {                       //navigation(arrows)
         nextEl: ".swiper-button-next",
         prevEl: ".swiper-button-prev",

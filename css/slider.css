@@ -6,9 +6,13 @@
     --swiper-pagination-bullet-height: 13px;
     --scroll: 0
 }
+.outros{
+    z-index: 1;
+}
 swiper-container{
     width: 100%;
     height: 100%;
+    z-index: 9;
 }
 .slider2-wrapper{
     position: relative;
@@ -147,11 +151,13 @@ swiper-slide{
 @media screen and (max-width: 790px) {
     #textslide19 h1{
         font-size: 18px;
+        font-weight: 500;
         margin-bottom: -18px;
         margin-top: 0;
     }
     #textslide18 h1{
         font-size: 18px;
+        font-weight: 500;
         text-align: left;
         margin: 0;
     }

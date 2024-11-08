@@ -186,6 +186,11 @@ body{
         font-size: 55px;
     }
 }
+.frame1{
+    display: flex;
+    flex-direction: column;
+    gap: 56px;
+}
 .frame1 img{
     display: flex;
     width: 100%;
@@ -362,12 +367,15 @@ body{
     background: #59A1D3;
     padding: 5vw 30vw;
 }
+.frame3ampli-2{
+    padding: 5vw 10vw;
+}
 .frame3ampli{
     display: flex;
     gap: 25px;
     justify-content: center;
     margin: auto;
-    padding: 5vw 30vw;
+    padding: 5vw 20vw;
 }
 .frame3ampli img{
     max-width: 100%;

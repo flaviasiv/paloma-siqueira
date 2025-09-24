@@ -232,7 +232,7 @@
     width:125px
     }
     
-    .card1 h4,.card2 h4,.card3 h4,.card4 h4,.card5 h4,.card5 h4,.card8 h4 {
+    .card1 h4,.card2 h4,.card3 h4,.card4 h4,.card5 h4,.card5 h4 {
     padding:5px;
     align-items:center;
     padding-bottom:5px;
@@ -270,7 +270,7 @@
     border-radius:20px;
     width:83px
     }
-    .card15 h4,.card16 h4 {
+    .card15 h4,.card16 h4,.card8 h4 {
         padding:5px;
         align-items:center;
         padding-bottom:5px;

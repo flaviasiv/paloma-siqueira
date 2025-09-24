@@ -284,7 +284,12 @@ line-height: 120%;
 .slider1-nav a:hover{
     opacity: 1;
     background-color: #FFF;
-    cursor: pointer;
+    cursor:pointer
+}
+/* ativo */
+.dot2.active {
+    background-color: #384538; /* cor do dot selecionado */
+    opacity: 1;
 }
 .container-slider{
     display: flex;

@@ -228,7 +228,9 @@ body{
     transform: translateX(-50%);
     z-index: 1;
 }
-
+.slider2-nav{
+    bottom: 2rem;
+}
 .slider1-nav a{
     width: 0.6rem;
     height: 0.6rem;
@@ -241,7 +243,12 @@ body{
 .slider1-nav a:hover{
     opacity: 1;
     background-color: #FFF;
-    cursor: pointer;
+    cursor:pointer
+}
+/* ativo */
+.dot1.active {
+    background-color: #fff; /* cor do dot selecionado */
+    opacity: 1;
 }
 .container-slider{
     display: flex;

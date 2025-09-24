@@ -42,65 +42,47 @@ function showSlides(n) {
 }
 
 
-// function showSlides(n) {
-//   var i;
-//   var slides = document.getElementsByClassName("imgslide");
-//   var dots = document.getElementsByClassName("dot2");
+let startX2 = 0;
+let isDragging2 = false;
 
-//   if (n > slides.length) { slideIndex = 1 }
-//   if (n < 1) { slideIndex = slides.length }
+const sliderContainer = document.querySelector(".slider");
 
-//   for (i = 0; i < slides.length; i++) {
-//     slides[i].classList.remove("active");
-//   }
-//   for (i = 0; i < dots.length; i++) {
-//     dots[i].classList.remove("active");
-//   }
+sliderContainer.addEventListener("mousedown", (e) => {
+  isDragging2 = true;
+  startX2 = e.pageX;
+});
 
-//   slides[slideIndex - 1].classList.add("active");
-//   dots[slideIndex - 1].classList.add("active");
-// }
-// let startX2 = 0;
-// let isDragging2 = false;
+sliderContainer.addEventListener("mouseup", (e) => {
+  if (!isDragging2) return;
+  isDragging2 = false;
 
-// const slider2Container = document.querySelector(".slider2text", "slider");
+  let endX2 = e.pageX;
+  let diffX2 = endX2 - startX2;
 
-// slider2Container.addEventListener("mousedown", (e) => {
-//   isDragging2 = true;
-//   startX2 = e.pageX;
-// });
+  if (diffX2 > 50) {
+    // arrastou para a direita → volta slide
+    plusSlides(-1);
+  } else if (diffX2 < -50) {
+    // arrastou para a esquerda → próximo slide
+    plusSlides(1);
+  }
+});
 
-// slider2Container.addEventListener("mouseup", (e) => {
-//   if (!isDragging2) return;
-//   isDragging2 = false;
+// também funciona em touch (mobile)
+sliderContainer.addEventListener("touchstart", (e) => {
+  startX2 = e.touches[0].clientX;
+}, false);
 
-//   let endX2 = e.pageX;
-//   let diffX2 = endX2 - startX2;
+sliderContainer.addEventListener("touchend", (e) => {
+  let endX2 = e.changedTouches[0].clientX;
+  let diffX2 = endX2 - startX2;
 
-//   if (diffX2 > 50) {
-//     // arrastou para a direita → volta slide
-//     plusSlides2(-1);
-//   } else if (diffX2 < -50) {
-//     // arrastou para a esquerda → próximo slide
-//     plusSlides2(1);
-//   }
-// });
-
-// // também funciona em touch (mobile)
-// slider2Container.addEventListener("touchstart", (e) => {
-//   startX2 = e.touches[0].clientX;
-// }, false);
-
-// slider2Container.addEventListener("touchend", (e) => {
-//   let endX2 = e.changedTouches[0].clientX;
-//   let diffX2 = endX2 - startX2;
-
-//   if (diffX2 > 50) {
-//     plusSlides2(-1);
-//   } else if (diffX2 < -50) {
-//     plusSlides2(1);
-//   }
-// }, false);
+  if (diffX2 > 50) {
+    plusSlides(-1);
+  } else if (diffX2 < -50) {
+    plusSlides(1);
+  }
+}, false);
 
 
 
@@ -210,14 +192,14 @@ function myFunction(){
   }
 }
 // sliders simples pag projs
-// function next(t){
-//   let elm = t.parentElement.parentElement.children[0];
-//   let item = elm.getElementsByClassName("item");
-//   elm.append(item[0]);
-// }
+function next(t){
+  let elm = t.parentElement.parentElement.children[0];
+  let item = elm.getElementsByClassName("item");
+  elm.append(item[0]);
+}
 
-// function prev(t){
-//   let elm = t.parentElement.parentElement.children[0];
-//   let item = elm.getElementsByClassName("item");
-//   elm.prepend(item[item.length - 1]);
-// }
+function prev(t){
+  let elm = t.parentElement.parentElement.children[0];
+  let item = elm.getElementsByClassName("item");
+  elm.prepend(item[item.length - 1]);
+}

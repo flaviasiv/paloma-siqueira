@@ -138,6 +138,7 @@
     
     .slider-wrapper i {
     position:absolute;
+    z-index: 1;
     height:50px;
     width:50px;
     text-align:center;
@@ -178,7 +179,8 @@
     }
     
     .slider.dragging .slider-img {
-    cursor:grab;
+    cursor:grabbing;
+    scroll-behavior: auto;
     user-select:none
     }
     
@@ -215,13 +217,18 @@
     border-radius:50%;
     background-color:#fff;
     opacity:.5;
-    transition:opacity ease 250ms
+    transition: all ease 500ms;
+    cursor: pointer; 
     }
     
     .slider-nav a:hover {
     opacity:1;
-    background-color:#FFF;
     cursor:pointer
+    }
+    /* ativo */
+    .dot.active {
+    background-color: #fff; /* cor do dot selecionado */
+    opacity: 1;
     }
     
     .img2 {
@@ -375,15 +382,45 @@
     object-fit:cover;
     max-height:900px;
     width:100%;
-    text-align:center
+    text-align:center;
+    overflow: hidden;
+    transition: height 0.5s ease; /* transição suave da altura */
+    cursor: grab;
+    user-select: none
     }
-    
+    .slider2text:active {
+      cursor: grabbing;
+    overflow: hidden;
+    transition: height 0.5s ease; /* transição suave da altura */
+    cursor: grab;
+    user-select: none
+    }
+    .slider{
+    position:relative;
+    }
     .textslide q {
     align-content:center;
     font-size:28px;
     font-style:normal;
     font-weight:400;
     line-height:normal
+    }
+
+    .textslide {
+    opacity: 0;
+    visibility: hidden;
+    position: absolute; /* mantém todos no mesmo lugar */
+    top: 0;
+    left: 0;
+    width: 100%;
+    transition: opacity 0.5s ease-in-out, visibility 0.5s ease-in-out;
+    }
+
+    /* slide ativo */
+    .textslide.active {
+    opacity: 1;
+    visibility: visible;
+    position: relative; /* volta ao fluxo normal */
     }
     
     .textslide p {
@@ -393,7 +430,7 @@
     font-weight:700;
     line-height:normal
     }
-    
+
     .slider2-nav {
     display:flex;
     column-gap:.5rem;
@@ -405,19 +442,25 @@
     }
     
     .slider2-nav a {
-    width:.75rem;
-    height:.75rem;
-    border-radius:50%;
-    background-color:grey;
-    opacity:.75;
-    transition:opacity ease 250ms;
-    cursor:pointer; 
+    width: .75rem;
+    height: .75rem;
+    border-radius: 50%;
+    background-color: grey;
+    opacity: .75;
+    transition: all ease 500ms;
+    cursor: pointer; 
     }
-    
-    .active,.dot2:hover {
-    opacity:1
+
+    /* hover */
+    .slider2-nav a:hover {
+    opacity: 1;
     }
-    
+
+    /* ativo */
+    .dot2.active {
+    background-color: #333; /* cor do dot selecionado */
+    opacity: 1;
+    }
     #arrowSlider2 {
     position:absolute;
     height:50px;

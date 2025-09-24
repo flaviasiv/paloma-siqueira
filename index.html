@@ -1,8 +1,10 @@
-<html lang=”pt-br”>
+<!doctype html>
+<html lang="pt-br">
 <head>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <meta charset="UFT-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
@@ -38,8 +40,8 @@
     </header>
         <div class="container" id="projetos">
             <div class="slider-wrapper">
-                <i id="left" class="fa-solid fa-angle-left">&#10094;</i> 
-                <div class="slider" class="slider">
+                <i id="left" class="fa-solid fa-angle-left" onclick="plusSlides(-1)">&#10094;</i> 
+                <div class="slider">
                     <a class="card" id="slide1" target="_blank" href="casajc66.html">
                         <img class="img1" src="./assets/highlightProjectCard01.webp" alt="página Casa JC6" draggable="false">
                         <img class="img2" src="./assets/mobile/01-banner-carrossel-casajc66mobile.webp" alt="página Casa JC6" draggable="false">
@@ -48,7 +50,7 @@
                         <img class="img1" src="./assets/highlightprojectcard02.webp" alt="página Casa Milano" draggable="false">
                         <img class="img2" src="./assets/mobile/02-banner-carrossel-casamilanomobile.webp" alt="página Casa Milano" draggable="false">
                     </a>
-                    <a class="card" id="slide3" target="_blank" href="odoyalouge.html">
+                    <a class="card" id="slide3" target="_blank" href="odoyalounge.html">
                         <img class="img1" src="./assets/highlightprojectcard03.webp" alt="página Odoyá Lounge Bar" draggable="false">
                         <img class="img2" src="./assets/mobile/03-banner-carrossel-odoyaloungebarmobile.webp" alt="página Odoyá Lounge Bar" draggable="false">
                     </a>
@@ -62,13 +64,13 @@
                     </a>
                 </div>
                 <div class="slider-nav">
-                    <a class="dot" id="radio1" href="#slide1"></a>
-                    <a class="dot" id="radio2" href="#slide2"></a>
-                    <a class="dot" id="radio3" href="#slide3"></a>
-                    <a class="dot" id="radio4" href="#slide4"></a>
-                    <a class="dot" id="radio5" href="#slide5"></a>
+                    <a class="dot" href="#slide1" onclick="currentSlide(1)"></a>
+                    <a class="dot" href="#slide2" onclick="currentSlide(2)"></a>
+                    <a class="dot" href="#slide3" onclick="currentSlide(3)"></a>
+                    <a class="dot" href="#slide4" onclick="currentSlide(4)"></a>
+                    <a class="dot" href="#slide5" onclick="currentSlide(5)"></a>
                 </div>
-                <i id="right" class="fa-solid fa-angle-right">&#10095;</i> 
+                <i id="right" class="fa-solid fa-angle-right" onclick="plusSlides(1)">&#10095;</i> 
             </div>
         </div>
         </div>
@@ -103,8 +105,12 @@
         </div>
         <div class="slider2">
             <div class="slider2-wrapper">
-                <a class="prev" id="arrowSlider2" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="prev" id="arrowSlider2" onclick="plusSlides2(-1)">&#10094;</a>
                     <div class="slider2text">
+                        <div class="textslide" id="textslide5">
+                            <q>Assertividade, Agilidade e Beleza essa é a forma como vemos o trabalho da Paloma aqui no Jardim do Cajueiro. Com uma comunicação impecável, a Paloma nos apresentou o projeto de forma nítida e objetiva. Uma arquiteta completa com uma visão ampla. Ela superou todas as nossas expectativas.</q>
+                            <p>Escola Waldorf Comunitária Jardim do Cajueiro</p>
+                        </div>
                         <div class="textslide" id="textslide1">
                             <q>Estou saindo de uma casa grande. Paloma mediu meus móveis, e, de posse da planta do apartamento, apresentou uma solução para cada cômodo, dando ideias de layout, de cores, encontrando soluções para cada questionamento meu. Sempre presente e disponível para dialogar e alterar a ideia inicial em função de custos mais acessíveis.  Estou adorando trabalhar com ela e com a equipe que ela apresentou. Estou louca para mudar para o apartamento que, tenho certeza, ficará harmonioso, confortável e com a minha cara.</q>
                             <p>Ledice Pereira</p>
@@ -121,24 +127,20 @@
                             <q>Acho sua visão ampla, tem coerência no espaço como um todo e boa compreensão sobre o estilo do cliente.</q>
                             <p>Silvia F. Ganança Dias</p>
                         </div>
-                        <div class="textslide" id="textslide5">
-                            <q>Assertividade, Agilidade e Beleza essa é a forma como vemos o trabalho da Paloma aqui no Jardim do Cajueiro. Com uma comunicação impecável, a Paloma nos apresentou o projeto de forma nítida e objetiva. Uma arquiteta completa com uma visão ampla. Ela superou todas as nossas expectativas.</q>
-                            <p>Escola Waldorf Comunitária Jardim do Cajueiro</p>
-                        </div>
                         <div class="textslide" id="textslide6">
                             <q>A “casa rosa” um dia apareceu, horrível, desfigurada por anos de uso comercial. Aluguei sem pestanejar, pois sabia que podia contar com alguém que peitasse a revitalização daqueles cômodos disformes. Fiz as contas e disse para a Paloma: ficarei aqui por três anos (acho que ao final foram seis), quero que sejam gloriosos! Ela respeitou meu budget e transformou o imóvel em uma residência tão acolhedora que era difícil terminar uma festa, ninguém ia embora.</q>
                             <p>Fábio Mortari</p>
                         </div>
                     </div>
                     <div class="slider2-nav">
-                        <a class="dot2" onclick="currentSlide(1)" ></a>
-                        <a class="dot2" onclick="currentSlide(2)" ></a>
-                        <a class="dot2" onclick="currentSlide(3)" ></a>
-                        <a class="dot2" onclick="currentSlide(4)" ></a>
-                        <a class="dot2" onclick="currentSlide(5)" ></a>
-                        <a class="dot2" onclick="currentSlide(6)" ></a>
+                        <a class="dot2" onclick="currentSlide2(1)" ></a>
+                        <a class="dot2" onclick="currentSlide2(2)" ></a>
+                        <a class="dot2" onclick="currentSlide2(3)" ></a>
+                        <a class="dot2" onclick="currentSlide2(4)" ></a>
+                        <a class="dot2" onclick="currentSlide2(5)" ></a>
+                        <a class="dot2" onclick="currentSlide2(6)" ></a>
                     </div>
-                <a class="next" id="arrowSlider2" onclick="plusSlides(1)">&#10095;</a> 
+                <a class="next" id="arrowSlider2" onclick="plusSlides2(1)">&#10095;</a> 
             </div>            
         </div>
         <div class="contato" id="contato">

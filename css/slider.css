@@ -58,6 +58,9 @@ swiper-slide{
 /* #textslide18 h1, #textslide19 h1{
     margin-top: -20px;
 }*/
+.textslide h1{
+    text-transform: uppercase;
+}
 #textslide19 h1{
     margin-top: -20px;
 } 
@@ -146,6 +149,9 @@ swiper-slide{
 }
 #textslide20 h4{
     width: 190px; 
+}
+#sssbch4{
+    width: 190px !important; 
 }
 @media screen and (max-width:1200) {    
     #textslide10 h1{

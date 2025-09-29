@@ -90,6 +90,7 @@ swiper-slide{
     font-weight: 700;
     margin-top: 5px;
 }
+.textslide h4{margin-top: 2px;}
 .footerslider{
     display: flex;
     justify-content: space-between;
@@ -134,7 +135,7 @@ swiper-slide{
     border-radius: 20px;
     width: 83px; 
 }
-#textslide15 h4, #textslide16 h4, #textslide17 h4, #textslide18 h4, #textslide19 h4, #textslide8 h4{
+#textslide15 h4, #textslide16 h4, #textslide17 h4, #textslide18 h4, #textslide19 h4, #textslide8 h4, #textslide20 h4{
     padding: 5px;
     font-size: 12px;
     font-weight: 700;
@@ -142,6 +143,9 @@ swiper-slide{
     border-radius: 20px;
     width: 90px; 
     height: 25px;
+}
+#textslide20 h4{
+    width: 190px; 
 }
 @media screen and (max-width:1200) {    
     #textslide10 h1{

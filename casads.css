@@ -1,0 +1,27 @@
+.sobreds{
+    padding-bottom: 50px;
+}
+.aboutds{
+    margin-bottom: 0;
+}
+.aboutds h2{
+    width: 227px;
+}
+.aboutds p{
+    width: 378px;
+    margin-top: 15px;
+}
+.aboutds h3{
+    font-weight: bold;
+    font-size: 14px;
+    text-transform:uppercase;
+    margin-top: 20px;
+}
+.aboutds h5{
+    text-transform:uppercase;
+}
+@media screen and (max-width: 500px) {
+    .aboutds p{
+        width: 220px;
+    }    
+}

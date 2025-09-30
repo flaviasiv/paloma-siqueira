@@ -64,7 +64,7 @@ swiper-slide{
 #textslide19 h1{
     margin-top: -20px;
 } 
-#textslide10 h1, #textslide18 h1, #textslide19 h1{
+#textslide10 h1, #textslide18 h1, #textslide19 h1, #textslide21 h1{
     display: block;
     align-items: center;
     margin-left: -20px;
@@ -77,6 +77,10 @@ swiper-slide{
     text-align: end;
     max-width: 290px;
     margin-bottom: -22px;
+}
+#textslide21 h1{
+    margin-bottom: -13px;
+    font-size: 23px;
 }
 .textslide h2{
     display: block;
@@ -106,7 +110,7 @@ swiper-slide{
 #textslide18 h3, #textslide17 h3{
     font-size: 12px;
 }
-#textslide1 h4, #textslide2 h4, #textslide3 h4, #textslide4 h4, #textslide5 h4, #textslide6 h4, #textslide7 h4, #textslide9 h4, #textslide10 h4, #textslide11 h4, #textslide12 h4, #textslide13 h4{
+#textslide1 h4, #textslide2 h4, #textslide3 h4, #textslide4 h4, #textslide5 h4, #textslide6 h4, #textslide7 h4, #textslide9 h4, #textslide10 h4, #textslide11 h4, #textslide12 h4, #textslide13 h4, #textslide21 h4{
     padding: 5px;
     font-size: 12px;
     font-weight: 700;
@@ -162,7 +166,7 @@ swiper-slide{
     #textslide19 h1{
         font-size: 18px;
         font-weight: 500;
-        margin-bottom: -18px;
+        margin-bottom: -13px;
         margin-top: 0;
     }
     #textslide18 h1{
@@ -174,31 +178,32 @@ swiper-slide{
     .textslide {
         height: 350px;
     }
-    .slider2-wrapper .textslide h1{
+    .slider2-wrapper .textslide h1, #textslide21 h1{
         font-size: 18px;
     }
     .textslide a img, .textslide a{
         width: 100%;
     }
-    #textslide10 h1{
+    #textslide10 h1, #textslide21 h1{
         margin-left: -5px;
-        font-size: 17px;
-        max-width: 190px;
+        font-size: 18px !important;
+        max-width: 240px;
+        margin-right: -20px;
         margin-bottom: -13px;
     }
-    #textslide1 h2, #textslide2 h2, #textslide3 h2, #textslide4 h2, #textslide5 h2, #textslide6 h2, #textslide7 h2, #textslide8 h2, #textslide9 h2, #textslide10 h2, #textslide11 h2, #textslide12 h2, #textslide13 h2, #textslide14 h2, #textslide15 h2, #textslide16 h2{
+    #textslide1 h2, #textslide2 h2, #textslide3 h2, #textslide4 h2, #textslide5 h2, #textslide6 h2, #textslide7 h2, #textslide8 h2, #textslide9 h2, #textslide10 h2, #textslide11 h2, #textslide12 h2, #textslide13 h2, #textslide14 h2, #textslide15 h2, #textslide16 h2, .textslide h2{
         font-size: 12px;
     }
     .textslide h3{
         font-size: 11px;
     }
-    #textslide1 h4, #textslide2 h4, #textslide3 h4, #textslide4 h4, #textslide5 h4, #textslide6 h4, #textslide7 h4, #textslide8 h4, #textslide9 h4, #textslide10 h4, #textslide11 h4, #textslide12 h4, #textslide13 h4{
-        font-size: 10px;
+    #textslide1 h4, #textslide2 h4, #textslide3 h4, #textslide4 h4, #textslide5 h4, #textslide6 h4, #textslide7 h4, #textslide8 h4, #textslide9 h4, #textslide10 h4, #textslide11 h4, #textslide12 h4, #textslide13 h4, .textslide h4{
+        font-size: 10px !important;
     }
     
     #textslide1 h4, #textslide2 h4, #textslide3 h4, #textslide4 h4, #textslide5 h4, #textslide8 h4 {
         font-size: 10px;
-        width: 105px;
+        width: 107px;
     }
     
     #textslide6 h4, #textslide7 h4,  #textslide9 h4, #textslide10 h4, #textslide11 h4{
@@ -214,5 +219,15 @@ swiper-slide{
     #textslide15 h4, #textslide16 h4{
         font-size: 10px;
         width:75px; 
+    }
+    #sssbch4, #textslide20 h4{
+        font-size: 10px  !important;
+        width: 136px !important; 
+    }
+    #textslide20 h4{
+        width: 160px !important; 
+    }
+    #textslide19 h4{
+        width: 75px !important; 
     }
 }

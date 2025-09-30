@@ -29,6 +29,9 @@ body{
 .aboutsssbc{
     margin-bottom: 0;
 }
+.title h1{
+    font-size: 112px;
+}
 .aboutsssbc h2{
     width: 180px;
     padding-right: 0;

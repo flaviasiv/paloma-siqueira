@@ -486,7 +486,7 @@
     right:-6%;
     }
     
-    @media only screen and (max-width: 788px) {
+    @media only screen and (max-width: 1188px) {
         .textslide q {
         font-size:16px;
         }
@@ -538,7 +538,7 @@
     text-align:right
     }
     
-    @media only screen and (min-width: 868px) {
+    @media only screen and (min-width: 968px) {
         .contato {
         padding:0 2rem;
         margin-bottom:120px

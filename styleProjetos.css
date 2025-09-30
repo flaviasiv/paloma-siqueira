@@ -361,8 +361,18 @@
     .contato p {
     text-align:center
     }
-    
-    @media only screen and (max-width: 768px) {
+
+    @media screen and (max-width: 1180px) {
+        .contato {
+        padding:0 2rem;
+        margin-bottom:120px
+        }
+        
+        .contato h1 {
+        font-size:10rem
+        }
+    }
+    @media only screen and (max-width: 888px) {
     .contato {
     padding:0 2rem;
     margin-bottom:120px
@@ -380,7 +390,7 @@
     }
     
     .contato h1 {
-    font-size:4rem
+    font-size:3.5rem
     }
     
     .contato p {

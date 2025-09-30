@@ -17,6 +17,9 @@
     font-weight: normal;
     font-style: normal;
   }
+  html{
+    scroll-behavior: smooth;
+  }
     body {
     background:#FFF;
     font-family:Arial,Helvetica,sans-serif
@@ -274,6 +277,7 @@
     display:flex;
     align-content:center;
     margin:auto;
+    cursor: pointer;
     margin-top:14px
     }
     

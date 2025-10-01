@@ -167,7 +167,7 @@ body{
         margin: auto;
         padding: 0 20px;
         margin-top: 10px;
-        margin-bottom: 20px;
+        margin-bottom: 50px;
     }
     .title{
         display: flex;
@@ -176,13 +176,16 @@ body{
         justify-content: start;
         width: 100%;
         max-width: 1190px;
-        font-size: 60px;
+        font-size: 50px;
         font-weight: 400;
         line-height: 0.8;
         margin-bottom: 20px;
     }
     .titleaqua{
         font-size: 55px;
+    }
+    .aboutamplia{
+        margin-bottom: 50px;
     }
 }
 .frame1{
@@ -430,11 +433,12 @@ body{
 @media screen and (max-width: 1020px) {
     .frame3ampli{
         flex-direction: column;
-        padding: 5vw 20vw;
-        gap: 5px;
+        padding: 30px 20vw;
+        gap: 25px;
     }
     .frame5{
      padding-right: 20px;
+     padding-top: 0;
     }
     .frame5 img{
      max-width: 60vw;
@@ -444,6 +448,12 @@ body{
     }
     .frame3ampli img{
         height: 100%;
+    }
+    .slider-wrapper{
+        margin: 30px auto;
+    }
+    .frame3ampli-2{
+        padding: 0 10vw;
     }
 }
 .outros{

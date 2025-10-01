@@ -23,9 +23,6 @@ body{
     text-transform: uppercase;
     font-size: 120px;
 }
-.sobresssbc{
-    padding-bottom: 50px;
-}
 .aboutsssbc{
     margin-bottom: 0;
 }
@@ -50,7 +47,18 @@ body{
     width: 227px;
     text-transform:uppercase;
 }
+.frame3ampli{
+    padding-top: 0;
+}
+.frame3ampli-2{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
 @media screen and (max-width: 500px) {
+    .sobre{
+        margin-bottom: 50px;
+    }
     .sobresssbc h1{
         font-size: 48px;
         white-space: nowrap;
@@ -58,4 +66,8 @@ body{
     .aboutsssbc p{
         width: 220px;
     }    
+    .frame3ampli{
+        padding: 0 10vw 5vw;
+        gap: 25px !important;
+    }
 }

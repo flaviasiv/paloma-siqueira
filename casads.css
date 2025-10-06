@@ -83,6 +83,9 @@ img{object-fit: cover;width: 100%;}
 .frame1{
     margin-bottom: -40px;
 }
+.frame1 img{
+    max-width: 100%;
+}
 .frame3ampli{
     display: flex;
     gap: 25px;
@@ -97,7 +100,7 @@ img{object-fit: cover;width: 100%;}
 .container3-slider{
     display: flex;
     justify-content: center;
-    padding: 2vw 0;
+    padding: 0 0 2vw 0;
     margin: auto;
     background-color: #FFF;
 }
@@ -121,13 +124,27 @@ img{object-fit: cover;width: 100%;}
     top: 50%;
     transform: translateY(-50%);
 }
+.outros{
+    margin-top: 40px;
+}
 @media screen and (max-width: 1020px) {
     .frame3ampli{
         flex-direction: column;
-        padding: 5vw 25vw;
+        padding: 40px 25vw;
+        padding-bottom: 0;
         gap: 5px;
     }
     .frame3ampli img{
         height: 100%;
+    }
+    .container3-slider{padding: 0;}
+    .prev3{  
+        left: 8%;
+    }
+    .next3{  
+        right: 8%;
+    }
+    #arrowSlider3{
+        font-size: 30px;
     }
 }

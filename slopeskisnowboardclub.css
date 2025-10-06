@@ -47,6 +47,9 @@ body{
     width: 227px;
     text-transform:uppercase;
 }
+.frame1 img{
+    max-width: 100%;
+}
 .frame3ampli{
     padding-top: 0;
 }
@@ -54,6 +57,9 @@ body{
     display: flex;
     flex-direction: column;
     gap: 25px;
+}
+.outros{
+    margin-top: 40px;
 }
 @media screen and (max-width: 500px) {
     .sobre{

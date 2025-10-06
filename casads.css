@@ -80,6 +80,11 @@ img{object-fit: cover;width: 100%;}
     max-width: 800px;
     padding-top: 40px;
 }
+/* ativo */
+.dot2.active {
+    background-color: #fff; /* cor do dot selecionado */
+    opacity: 1;
+}
 .frame1{
     margin-bottom: -40px;
 }
